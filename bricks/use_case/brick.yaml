@@ -1,0 +1,35 @@
+name: use_case
+description: A new brick created with the Mason CLI.
+
+
+version: 0.1.1+1
+
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+vars:
+  path:
+    type: string
+    description: file path
+    default: lib/domain/use_case/
+    prompt: File path?
+  name:
+    type: string
+    description: use case name
+    prompt: Use case name?
+  request:
+    type: string
+    description: request name
+    default: request
+    prompt: Request name?
+  response:
+    type: string
+    description: response name
+    default: response
+    prompt: Response name?
+  repo:
+    type: string
+    description: response name
+    default: ApiRepo
+    prompt: Repo name?

@@ -9,12 +9,12 @@ environment:
   mason: ">=0.1.0-dev <0.1.0"
 
 vars:
-  path:
+  use_case_path:
     type: string
     description: file path
     default: lib/domain/use_case/
     prompt: File path?
-  name:
+  use_case:
     type: string
     description: use case name
     prompt: Use case name?

@@ -20,8 +20,8 @@ class UseCaseGenerator {
     await generator.generate(
       DirectoryGeneratorTarget(Directory.current),
       vars: {
-        'path': path,
-        'name': name,
+        'use_case_path': path,
+        'use_case': name,
         'response': response,
         'request': request,
         'repo': repo,

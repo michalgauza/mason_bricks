@@ -1,0 +1,20 @@
+name: request_dto
+description: A new brick created with the Mason CLI.
+
+
+version: 0.0.1+1
+
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+vars:
+  request_dto_path:
+    type: string
+    description: file path
+    default: lib/data/dto/request/
+    prompt: File path?
+  request_dto:
+    type: string
+    description: request dto name
+    prompt: Request Dto name?

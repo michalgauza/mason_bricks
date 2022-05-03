@@ -1,0 +1,18 @@
+name: response
+description: A new brick created with the Mason CLI.
+
+version: 0.0.1+1
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+vars:
+  response_path:
+    type: string
+    description: file path
+    default: lib/domain/entity/response/
+    prompt: File path?
+  response:
+    type: string
+    description: response name
+    prompt: Response name?

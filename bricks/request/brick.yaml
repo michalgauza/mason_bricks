@@ -1,0 +1,20 @@
+name: request
+description: A new brick created with the Mason CLI.
+
+
+version: 0.0.1+1
+
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+vars:
+  request_path:
+    type: string
+    description: file path
+    default: lib/domain/entity/request/
+    prompt: File path?
+  request:
+    type: string
+    description: request name
+    prompt: Use case name?

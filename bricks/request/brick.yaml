@@ -17,4 +17,4 @@ vars:
   request:
     type: string
     description: request name
-    prompt: Use case name?
+    prompt: Request name?

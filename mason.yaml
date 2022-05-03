@@ -9,3 +9,5 @@ bricks:
     path: bricks/request
   response:
     path: bricks/response
+  response_dto:
+    path: bricks/response_dto

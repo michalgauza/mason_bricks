@@ -7,3 +7,5 @@ bricks:
     path: bricks/use_case_generator
   request:
     path: bricks/request
+  response:
+    path: bricks/response

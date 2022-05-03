@@ -11,3 +11,5 @@ bricks:
     path: bricks/response
   response_dto:
     path: bricks/response_dto
+  request_dto:
+    path: bricks/request_dto

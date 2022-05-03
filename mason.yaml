@@ -5,3 +5,5 @@ bricks:
     path: bricks/use_case
   use_case_generator:
     path: bricks/use_case_generator
+  request:
+    path: bricks/request

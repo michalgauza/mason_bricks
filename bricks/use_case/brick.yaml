@@ -30,6 +30,6 @@ vars:
     prompt: Response name?
   repo:
     type: string
-    description: response name
-    default: ApiRepo
+    description: repo name
+    default: repo
     prompt: Repo name?

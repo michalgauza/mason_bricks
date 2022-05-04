@@ -1,0 +1,24 @@
+name: repo
+description: A new brick created with the Mason CLI.
+
+version: 0.0.1+1
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+vars:
+  repo:
+    type: string
+    description: repo name
+    default: repo
+    prompt: Repo name?
+  repo_impl_path:
+    type: string
+    description: file path
+    default: lib/data/repository/
+    prompt: Repo impl file path?
+  repo_abs_path:
+    type: string
+    description: file path
+    default: lib/domain/repository/
+    prompt: Repo file path?

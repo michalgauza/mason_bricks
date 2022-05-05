@@ -1,16 +1,16 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part '{{request_dto.snakeCase()}}_request_dto.freezed.dart';
+part '{{request.snakeCase()}}_request.freezed.dart';
 
 @freezed
-class {{request_dto.pascalCase()}}RequestDto with _${{request_dto.pascalCase()}}RequestDto {
-  const factory {{request_dto.pascalCase()}}RequestDto({
+class {{request.pascalCase()}}Request with _${{request.pascalCase()}}Request {
+  const factory {{request.pascalCase()}}Request({
 
-  }) = _{{request_dto.pascalCase()}}RequestDto;
+  }) = _{{request.pascalCase()}}Request;
 }
 
-extension {{request_dto.pascalCase()}}RequestDtoExtension on {{request_dto.pascalCase()}}RequestDto {
-{{request_dto.pascalCase()}}RequestDtoDto get toDto => {{request_dto.pascalCase()}}RequestDtoDto(
+extension {{request.pascalCase()}}RequestExtension on {{request.pascalCase()}}Request {
+{{request.pascalCase()}}RequestDto get toDto => {{request.pascalCase()}}RequestDto(
 
   );
 }

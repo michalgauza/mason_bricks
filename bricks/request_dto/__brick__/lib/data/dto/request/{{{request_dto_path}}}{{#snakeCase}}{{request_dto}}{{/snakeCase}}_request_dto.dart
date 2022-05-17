@@ -10,7 +10,5 @@ const factory {{request_dto.pascalCase()}}RequestDto({
 }
 
 extension {{request_dto.pascalCase()}}RequestDtoExtension on {{request_dto.pascalCase()}}RequestDto {
-{{request_dto.pascalCase()}}Request get toEntity => {{request_dto.pascalCase()}}Request(
-
-);
+{{request_dto.pascalCase()}}Request get toEntity => {{request_dto.pascalCase()}}Request();
 }

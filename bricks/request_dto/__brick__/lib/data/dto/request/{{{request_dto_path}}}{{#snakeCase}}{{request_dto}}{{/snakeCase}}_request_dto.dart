@@ -5,7 +5,7 @@ part '{{request_dto.snakeCase()}}_request_dto.freezed.dart';
 @freezed
 class {{request_dto.pascalCase()}}RequestDto with _${{request_dto.pascalCase()}}RequestDto {
 const factory {{request_dto.pascalCase()}}RequestDto({
-
+{{request_dto_vars}}
 }) = _{{request_dto.pascalCase()}}RequestDto;
 }
 

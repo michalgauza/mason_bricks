@@ -12,9 +12,12 @@ vars:
   request_path:
     type: string
     description: file path
-    default: lib/domain/entity/request/
-    prompt: File path?
+    prompt: File path? (lib/domain/entity/request/{your_path})
   request:
     type: string
     description: request name
     prompt: Request name?
+  request_vars:
+    type: string
+    description: vars
+    prompt: Comma separated vars (eg. int id, String? foo)

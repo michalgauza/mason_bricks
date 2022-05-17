@@ -12,9 +12,12 @@ vars:
   request_dto_path:
     type: string
     description: file path
-    default: lib/data/dto/request/
-    prompt: File path?
+    prompt: File path? (lib/data/dto/request/{your_path})
   request_dto:
     type: string
     description: request dto name
-    prompt: Request Dto name?
+    prompt: Request dto name?
+  request_dto_vars:
+    type: string
+    description: vars
+    prompt: Comma separated vars (eg. int id, String? foo)

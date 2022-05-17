@@ -1,6 +1,5 @@
 bricks:
-  hello:
-    version: 0.1.0+1
+  hello: 0.1.0+1
   use_case:
     path: bricks/use_case
   use_case_generator:

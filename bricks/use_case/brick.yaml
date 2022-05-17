@@ -12,8 +12,7 @@ vars:
   use_case_path:
     type: string
     description: file path
-    default: lib/domain/use_case/
-    prompt: File path?
+    prompt: File path? (lib/domain/use_case/{your_path})
   use_case:
     type: string
     description: use case name

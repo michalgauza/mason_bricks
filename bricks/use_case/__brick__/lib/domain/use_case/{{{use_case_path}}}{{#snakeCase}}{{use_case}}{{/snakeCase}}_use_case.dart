@@ -9,10 +9,10 @@ import '../utils/use_case.dart';
 @injectable
 class {{use_case.pascalCase()}}UseCase implements UseCase<{{response.pascalCase()}}, {{request.pascalCase()}}> {
 
-const {{use_case.pascalCase()}}(this._{{repo.camelCase()}});
+const {{use_case.pascalCase()}}(this._{{repo.camelCase()}})UseCase;
 
 final {{repo.pascalCase()}} _{{repo.camelCase()}};
 
 @override
-Future<Either<Failure, {{response.pascalCase()}}>> call({{request.pascalCase()}} payload) => _apiRepository.{{use_case.camelCase()}}(payload);
+Future<Either<Failure, {{response.pascalCase()}}>> call({{request.pascalCase()}} payload) => _{{repo.camelCase()}}.{{use_case.camelCase()}}(payload);
 }

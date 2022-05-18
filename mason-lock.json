@@ -1,1 +1,1 @@
-{"bricks":{"hello":"0.1.0+1","use_case":{"path":"bricks/use_case"},"request":{"path":"bricks/request"}}}
+{"bricks":{"use_case":{"path":"bricks/use_case"},"request":{"path":"bricks/request"},"response":{"path":"bricks/response"},"response_dto":{"path":"bricks/response_dto"},"request_dto":{"path":"bricks/request_dto"},"repo":{"path":"bricks/repo"}}}

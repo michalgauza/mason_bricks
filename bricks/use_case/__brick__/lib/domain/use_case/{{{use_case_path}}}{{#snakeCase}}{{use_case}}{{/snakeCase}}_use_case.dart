@@ -7,7 +7,7 @@ import '../utils/failure.dart';
 import '../utils/use_case.dart';
 
 @injectable
-class {{use_case.pascalCase()}}UseCase implements UseCase<{{response.pascalCase()}}, {{request.pascalCase()}}> {
+class {{use_case.pascalCase()}}UseCase implements UseCase<{{response.pascalCase()}}Response, {{request.pascalCase()}Request}> {
 
 const {{use_case.pascalCase()}}(this._{{repo.camelCase()}})UseCase;
 

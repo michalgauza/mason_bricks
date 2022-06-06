@@ -11,3 +11,5 @@ bricks:
     path: bricks/request_dto
   repo:
     path: bricks/repo
+  widget_with_cubit_and_freezed:
+    path: bricks/widget_with_cubit_and_freezed

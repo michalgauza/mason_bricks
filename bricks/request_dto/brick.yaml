@@ -17,7 +17,7 @@ vars:
     type: string
     description: request dto name
     prompt: Request dto name?
-  request_dto_vars:
+  vars:
     type: string
     description: vars
     prompt: Comma separated vars (eg. int id, String? foo)

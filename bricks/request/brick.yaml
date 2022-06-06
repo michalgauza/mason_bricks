@@ -17,7 +17,7 @@ vars:
     type: string
     description: request name
     prompt: Request name?
-  request_vars:
+  vars:
     type: string
     description: vars
     prompt: Comma separated vars (eg. int id, String? foo)

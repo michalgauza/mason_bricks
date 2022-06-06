@@ -1,15 +1,13 @@
-name: use_case
+name: full_use_case
 description: A new brick created with the Mason CLI.
 
-
 version: 0.0.1+1
-
 
 environment:
   mason: ">=0.1.0-dev <0.1.0"
 
 vars:
-  use_case_path:
+  path:
     type: string
     description: file path
     prompt: File path? (lib/domain/use_case/{your_path})
@@ -32,3 +30,7 @@ vars:
     description: repo name
     default: repo
     prompt: Repo name?
+  vars:
+    type: string
+    description: vars
+    prompt: Comma separated vars (eg. int id, String? foo)

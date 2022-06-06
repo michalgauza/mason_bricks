@@ -11,3 +11,5 @@ bricks:
     path: bricks/request_dto
   repo:
     path: bricks/repo
+  full_use_case:
+    path: bricks/full_use_case

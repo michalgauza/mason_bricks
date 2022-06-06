@@ -10,9 +10,12 @@ vars:
   response_path:
     type: string
     description: file path
-    default: lib/domain/entity/response/
-    prompt: File path?
+    prompt: File path? (lib/domain/entity/response/{your_path})
   response:
     type: string
     description: response name
     prompt: Response name?
+  vars:
+    type: string
+    description: vars
+    prompt: Comma separated vars (eg. int id, String? foo)

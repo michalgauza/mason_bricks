@@ -11,5 +11,7 @@ bricks:
     path: bricks/request_dto
   repo:
     path: bricks/repo
+  full_use_case:
+    path: bricks/full_use_case
   widget_with_cubit_and_freezed:
     path: bricks/widget_with_cubit_and_freezed

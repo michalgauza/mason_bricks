@@ -12,13 +12,8 @@ vars:
     description: repo name
     default: repo
     prompt: Repo name?
-  repo_impl_path:
+  path:
     type: string
     description: file path
-    default: lib/data/repository/
-    prompt: Repo impl file path?
-  repo_abs_path:
-    type: string
-    description: file path
-    default: lib/domain/repository/
-    prompt: Repo file path?
+    prompt: File path? (lib/(domain for impl and data for abstract)/repository/{your_path})
+

@@ -8,9 +8,3 @@ const factory {{response.pascalCase()}}Response({
   {{vars}}
 }) = _{{response.pascalCase()}}Response;
 }
-
-extension {{response.pascalCase()}}ResponseExtension on {{response.pascalCase()}}Response {
-{{response.pascalCase()}}ResponseDto get toDto => {{response.pascalCase()}}ResponseDto(
-  {{mapper_vars}}
-);
-}

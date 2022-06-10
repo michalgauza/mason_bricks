@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part '{{response.snakeCase()}}_dto_response.freezed.dart';
+part '{{response.snakeCase()}}_response_dto.freezed.dart';
 
 @freezed
 class {{response.pascalCase()}}ResponseDto with _${{response.pascalCase()}}ResponseDto {

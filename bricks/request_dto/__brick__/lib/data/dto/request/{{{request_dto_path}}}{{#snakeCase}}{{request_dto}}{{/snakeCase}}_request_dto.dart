@@ -7,6 +7,8 @@ class {{request_dto.pascalCase()}}RequestDto with _${{request_dto.pascalCase()}}
 const factory {{request_dto.pascalCase()}}RequestDto({
 {{vars}}
 }) = _{{request_dto.pascalCase()}}RequestDto;
+factory {{request_dto.pascalCase()}}RequestDto.fromJson(Map<String, dynamic> json) => _${{request_dto.pascalCase()}}RequestDtoFromJson(json);
+
 }
 
 extension {{request_dto.pascalCase()}}RequestDtoExtension on {{request_dto.pascalCase()}}RequestDto {

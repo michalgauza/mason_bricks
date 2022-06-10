@@ -7,6 +7,8 @@ class {{response.pascalCase()}}ResponseDto with _${{response.pascalCase()}}Respo
 const factory {{response.pascalCase()}}ResponseDto({
   {{vars}}
 }) = _{{response.pascalCase()}}ResponseDto;
+
+  factory {{response.pascalCase()}}RequestDto.fromJson(Map<String, dynamic> json) => _${{response.pascalCase()}}RequestDtoFromJson(json);
 }
 
 extension {{response.pascalCase()}}ResponseDtoExtension on {{response.pascalCase()}}ResponseDto {

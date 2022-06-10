@@ -1,6 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part '{{request_dto.snakeCase()}}_request_dto.freezed.dart';
+part '{{request_dto.snakeCase()}}_request_dto.g.dart';
 
 @freezed
 class {{request_dto.pascalCase()}}RequestDto with _${{request_dto.pascalCase()}}RequestDto {

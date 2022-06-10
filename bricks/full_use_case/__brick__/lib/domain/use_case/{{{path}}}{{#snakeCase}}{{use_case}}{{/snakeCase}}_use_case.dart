@@ -2,9 +2,9 @@ import 'package:dartz/dartz.dart';
 import 'package:injectable/injectable.dart';
 
 @injectable
-class {{use_case.pascalCase()}}UseCase implements UseCase<{{response.pascalCase()}}Response, {{request.pascalCase()}}Request}> {
+class {{use_case.pascalCase()}}UseCase implements UseCase<{{response.pascalCase()}}Response, {{request.pascalCase()}}Request> {
 
-const {{use_case.pascalCase()}}(this._{{repo.camelCase()}})UseCase;
+const {{use_case.pascalCase()}}UseCase(this._{{repo.camelCase()}});
 
 final {{repo.pascalCase()}} _{{repo.camelCase()}};
 

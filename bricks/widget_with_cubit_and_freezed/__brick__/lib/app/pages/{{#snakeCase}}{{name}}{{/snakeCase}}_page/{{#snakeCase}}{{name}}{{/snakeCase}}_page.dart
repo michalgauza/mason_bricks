@@ -16,16 +16,3 @@ class {{#pascalCase}}{{name}}{{/pascalCase}}Page extends StatelessWidget {
   );
 }
 
-class _Body extends StatelessWidget {
-  const _Body();
-
-  @override
-  Widget build(BuildContext context) => BlocBuilder<{{#pascalCase}}{{name}}{{/pascalCase}}Cubit, {{#pascalCase}}{{name}}{{/pascalCase}}State>(
-    builder: (_, state) => state.when(
-      initial: () => const Text('initial'),
-      success: () => const Text('success'),
-      error: () => const Text('error'),
-      loading: () => const Text('loading'),
-    ),
-  );
-}

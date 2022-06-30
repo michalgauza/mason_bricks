@@ -9,7 +9,7 @@ const factory {{response.pascalCase()}}ResponseDto({
   {{vars}}
 }) = _{{response.pascalCase()}}ResponseDto;
 
-  factory {{response.pascalCase()}}RequestDto.fromJson(Map<String, dynamic> json) => _${{response.pascalCase()}}RequestDtoFromJson(json);
+  factory {{response.pascalCase()}}ResponseDto.fromJson(Map<String, dynamic> json) => _${{response.pascalCase()}}ResponseDtoFromJson(json);
 }
 
 extension {{response.pascalCase()}}ResponseDtoExtension on {{response.pascalCase()}}ResponseDto {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../cubit/{{#pascalCase}}{{name}}{{/pascalCase}}_cubit.dart';
-import '../cubit/{{#pascalCase}}{{name}}{{/pascalCase}}_state.dart';
+import '../cubit/{{#snakeCase}}{{name}}{{/snakeCase}}_cubit.dart';
+import '../cubit/{{#snakeCase}}{{name}}{{/snakeCase}}_state.dart';
 
 class {{#pascalCase}}{{name}}{{/pascalCase}}Body extends StatelessWidget {
   const {{#pascalCase}}{{name}}{{/pascalCase}}Body();

@@ -33,8 +33,8 @@ vars:
   request_vars:
     type: string
     description: request vars
-    prompt: Comma separated vars (eg. int id, String? foo)
+    prompt: Comma separated request vars (eg. int id, String? foo)
   response_vars:
     type: string
     description: response vars
-    prompt: Comma separated vars (eg. int id, String? foo)
+    prompt: Comma separated response vars (eg. int id, String? foo)

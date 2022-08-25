@@ -6,7 +6,7 @@ part '{{response.snakeCase()}}_response_dto.g.dart';
 @freezed
 class {{response.pascalCase()}}ResponseDto with _${{response.pascalCase()}}ResponseDto {
 const factory {{response.pascalCase()}}ResponseDto({
-  {{vars}}
+  {{response_vars}}
 }) = _{{response.pascalCase()}}ResponseDto;
 
   factory {{response.pascalCase()}}ResponseDto.fromJson(Map<String, dynamic> json) => _${{response.pascalCase()}}ResponseDtoFromJson(json);
@@ -14,6 +14,6 @@ const factory {{response.pascalCase()}}ResponseDto({
 
 extension {{response.pascalCase()}}ResponseDtoExtension on {{response.pascalCase()}}ResponseDto {
 {{response.pascalCase()}}Response get toEntity => {{response.pascalCase()}}Response(
-  {{mapper_vars}}
+  {{mapper_response_vars}}
 );
 }

@@ -30,7 +30,11 @@ vars:
     description: repo name
     default: repo
     prompt: Repo name?
-  vars:
+  request_vars:
     type: string
-    description: vars
+    description: request vars
+    prompt: Comma separated vars (eg. int id, String? foo)
+  response_vars:
+    type: string
+    description: response vars
     prompt: Comma separated vars (eg. int id, String? foo)

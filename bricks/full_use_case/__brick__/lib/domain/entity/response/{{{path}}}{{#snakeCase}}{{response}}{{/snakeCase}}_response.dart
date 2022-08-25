@@ -5,6 +5,6 @@ part '{{response.snakeCase()}}_response.freezed.dart';
 @freezed
 class {{response.pascalCase()}}Response with _${{response.pascalCase()}}Response {
 const factory {{response.pascalCase()}}Response({
-  {{vars}}
+  {{response_vars}}
 }) = _{{response.pascalCase()}}Response;
 }

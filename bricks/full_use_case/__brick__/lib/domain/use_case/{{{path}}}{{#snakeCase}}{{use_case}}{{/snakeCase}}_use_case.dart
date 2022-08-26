@@ -9,5 +9,5 @@ const {{use_case.pascalCase()}}UseCase(this._{{repo.camelCase()}});
 final {{repo.pascalCase()}} _{{repo.camelCase()}};
 
 @override
-Future<Either<Failure, {{response.pascalCase()}}Response>> call({{request.pascalCase()}} payload) => _{{repo.camelCase()}}.{{use_case.camelCase()}}(payload);
+Future<Either<Failure, {{response.pascalCase()}}Response>> call({{request.pascalCase()}}Request payload) => _{{repo.camelCase()}}.{{use_case.camelCase()}}(payload);
 }
